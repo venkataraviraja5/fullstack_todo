@@ -2,7 +2,7 @@
 const mongoose = require('mongoose')
 
 const database = () =>{
-  mongoose.connect('mongodb+srv://raviraja2000:raviraja2000@cluster0.eabcdxj.mongodb.net/',{
+  mongoose.connect(' ',{
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
